@@ -1,4 +1,11 @@
+// only add `router.base = '/<repository-name>/'` if `DEPLOY_ENV` is `GH_PAGES`
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+  router: {
+    base: '/<repository-name>/'
+  }
+} : {}
 module.exports = {
+  ...routerBase,
   /*
   ** Headers of the page
   */
@@ -36,8 +43,5 @@ module.exports = {
         })
       }
     }
-  },
-  router: {
-    base: '/beardedpayton.github.io/'
   }
 }

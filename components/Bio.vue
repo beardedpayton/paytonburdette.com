@@ -26,4 +26,10 @@ export default {
     width: 350px;
     height: 350px;
   }
+  @media (max-width: 767px) {
+    img {
+      margin: 0 auto;
+      margin-top: 50px;
+    }
+  }
 </style>

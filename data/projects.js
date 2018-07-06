@@ -13,5 +13,10 @@ export default [
       name: 'file-helper-cli',
       brief: 'CLI to perform basic file system operations',
       url: 'https://github.com/beardedpayton/file-helper-cli'
-    }
+    },
+    {
+      name: 'vue-store-locator',
+      brief: 'Custom store locator built in Vue',
+      url: 'https://github.com/beardedpayton/vue-store-locator'
+    },
 ]

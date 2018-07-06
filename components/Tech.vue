@@ -5,7 +5,7 @@
         <div class="col-md-12">
           <h1>{{title}}</h1>
         </div>
-        <div v-for="item in tech" :key="tech[item]" class="col-md-4">
+        <div v-for="item in tech" :key="tech[item]" class="col-sm-4 col-xs-12 tech-items">
           <h3>[ {{ item.name }} ]</h3>
           <ul>
             <li v-for="skill in item.skills"  :key="skill"><i class="fas fa-check-circle"></i>{{ skill }}</li>
@@ -39,5 +39,13 @@ li {
 }
 i {
   padding-right: 10px;
+}
+@media (max-width: 576px) {
+  .tech-items {
+    text-align: center;
+  }
+  li {
+    text-align: left;
+  }
 }
 </style>

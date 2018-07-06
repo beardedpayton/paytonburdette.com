@@ -5,7 +5,7 @@ export default [
   },
   {
     name: 'back-end',
-    skills: ['Node', 'Sequelize', 'MySQL', 'Microsoft SQL Server']
+    skills: ['Node', 'Sequelize', 'MySQL', 'MSSQL', 'Craft', 'Expression Engine']
   },
   {
     name: 'dev tools',

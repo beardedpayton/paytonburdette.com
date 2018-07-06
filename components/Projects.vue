@@ -29,4 +29,11 @@ export default {
 i {
   padding-right: 10px;
 }
+@media (max-width: 767px) {
+  .projects {
+    border-right: none;
+    border-bottom: 1px solid #e6e9ec;
+    margin-bottom: 50px;
+  }
+}
 </style>

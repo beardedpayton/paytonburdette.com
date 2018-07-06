@@ -36,5 +36,8 @@ module.exports = {
         })
       }
     }
+  },
+  router: {
+    base: '/beardedpayton.github.io/'
   }
 }

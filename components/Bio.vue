@@ -22,10 +22,6 @@ export default {
 </script>
 
 <style>
-  img {
-    width: 350px;
-    height: 350px;
-  }
   @media (max-width: 767px) {
     img {
       margin: 0 auto;
